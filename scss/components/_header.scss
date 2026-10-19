@@ -6,9 +6,10 @@
     background-color: $color-fondo-tarjeta;
     height: $espaciado-base * 4;
     margin: -8px;
+    border-radius: 0 0 $border-radius $border-radius;
     &__logo{
         height: $espaciado-base*4;
-
+        border-radius:$border-radius * 2;
     }
     &__nav{
         display: flex;
