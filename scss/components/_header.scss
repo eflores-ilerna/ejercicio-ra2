@@ -3,7 +3,7 @@
 .header{
     display:flex;
     justify-content: space-between;
-    background-color: $color-fondo-tarjeta;
+    background-color: $color-fondo-cabecera;
     height: $espaciado-base * 4;
     margin: -8px;
     border-radius: 0 0 $border-radius $border-radius;
@@ -18,10 +18,13 @@
         width: 75%;
         
         &__link{
-            color: darken($color: $color_secundario, $amount: 25);
+            color: darken($color: $color_secundario, $amount: 5);
         }
 
     }
 
+    &__title{
+        color: $color_secundario
+    }
     
 }
