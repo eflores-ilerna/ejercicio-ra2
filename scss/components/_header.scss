@@ -1,0 +1,26 @@
+@use '../abstract/variables' as *;
+
+.header{
+    display:flex;
+    justify-content: space-between;
+    background-color: $color-fondo-tarjeta;
+    height: $espaciado-base * 4;
+    margin: -8px;
+    &__logo{
+        height: $espaciado-base*4;
+
+    }
+    &__nav{
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        width: 75%;
+        
+        &__link{
+            color: darken($color: $color_secundario, $amount: 25);
+        }
+
+    }
+
+    
+}
