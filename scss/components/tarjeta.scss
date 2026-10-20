@@ -1,0 +1,17 @@
+@use '../abstract/variables';
+
+
+.tarjeta{
+    width: 200px;
+    border: 1px solid #000000;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px;
+    color: #000000;
+    background-color: #cc6969;
+}
+.imagen{
+    width: 100%;
+    height: auto;
+    border-radius: 0px;
+}
