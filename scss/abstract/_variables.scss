@@ -19,8 +19,14 @@ $border-radius:8px;
 $tipografia-principal: Arial, Helvetica, sans-serif;
 $tipografia-titulo: 'Courier New', Courier, monospace;
 
-// boton
+// boton primario
 $color-boton: #d13b00;
 $color-boton-borde:#720000;
 $color-boton-hover: #e70505;
 $color-boton-active: #720000;
+
+//boton secundario
+$color-boton-secundario: #727272;
+$color-boton-secundario-borde: #555657;
+$color-boton-secundario-hover: #aeb1b4;
+$color-boton-secundario-active: #555657;

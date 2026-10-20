@@ -47,7 +47,7 @@
   color: #F0A000;
 }
 
-.boton {
+.boton-primario {
   background-color: #d13b00;
   color: #fdfdfd;
   border: 2px solid #720000;
@@ -60,10 +60,31 @@
   cursor: pointer;
   border-radius: 15%;
 }
-.boton:hover {
+.boton-primario:hover {
   background-color: #e70505;
 }
-.boton:active {
+.boton-primario:active {
   background-color: #720000;
+  transform: translateY(4px);
+}
+
+.boton-secundario {
+  background-color: #727272;
+  color: #fdfdfd;
+  border: 2px solid #555657;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 15%;
+}
+.boton-secundario:hover {
+  background-color: #aeb1b4;
+}
+.boton-secundario:active {
+  background-color: #555657;
   transform: translateY(4px);
 }/*# sourceMappingURL=main.css.map */
