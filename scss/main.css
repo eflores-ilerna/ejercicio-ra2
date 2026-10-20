@@ -60,11 +60,9 @@
   cursor: pointer;
   border-radius: 15%;
 }
-
 .boton:hover {
   background-color: #e70505;
 }
-
 .boton:active {
   background-color: #720000;
   transform: translateY(4px);

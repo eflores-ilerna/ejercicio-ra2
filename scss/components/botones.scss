@@ -1,9 +1,9 @@
 @use '../abstract/variables' as *;
 
-.boton{
-    background-color: $color-boton;
+@mixin boton($bg_color, $bd_color, $hover_color, $active_color){
+    background-color: $bg_color;
     color: #fdfdfd;
-    border: 2px solid $color-boton-borde;
+    border: 2px solid $bd_color;
     padding: 10px 20px;
     text-align: center;
     text-decoration: none;
@@ -12,12 +12,16 @@
     margin: 4px 2px;
     cursor: pointer;
     border-radius: 15%;
+    &:hover{
+  background-color:$hover_color;
 }
-.boton:hover{
-  background-color:$color-boton-hover;
+    &:active{
+  background-color: $active_color;
+      transform: translateY(4px);
+    }
 }
 
-.boton:active {
-  background-color: $color-boton-active;
-  transform: translateY(4px);
+.boton{
+  @include boton($color-boton, $color-boton-borde, $color-boton-hover, $color-boton-active);
+  
 }
