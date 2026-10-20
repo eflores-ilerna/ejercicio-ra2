@@ -1,7 +1,9 @@
+@use '../abstract/variables' as *;
+
 .boton{
-    background-color: #d13b00;
+    background-color: $color-boton;
     color: #fdfdfd;
-    border: none;
+    border: 2px solid $color-boton-borde;
     padding: 10px 20px;
     text-align: center;
     text-decoration: none;
@@ -9,7 +11,13 @@
     font-size: 16px;
     margin: 4px 2px;
     cursor: pointer;
+    border-radius: 15%;
 }
 .boton:hover{
-  background-color: #9c0000;
+  background-color:$color-boton-hover;
+}
+
+.boton:active {
+  background-color: $color-boton-active;
+  transform: translateY(4px);
 }
