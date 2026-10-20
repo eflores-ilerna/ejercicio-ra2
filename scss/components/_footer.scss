@@ -12,6 +12,8 @@
     display: flex;
     justify-content: center;
 
+    height: 5*$espaciado-base;
+
     gap: 10%;
 
     &__nav{

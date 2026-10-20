@@ -1,0 +1,31 @@
+@use '../abstract/variables' as *;
+
+@mixin boton($bg_color, $bd_color, $hover_color, $active_color){
+    background-color: $bg_color;
+    color: #fdfdfd;
+    border: 2px solid $bd_color;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 15%;
+    &:hover{
+  background-color:$hover_color;
+}
+    &:active{
+  background-color: $active_color;
+      transform: translateY(4px);
+    }
+}
+
+.boton-primario{
+  @include boton($color-boton, $color-boton-borde, $color-boton-hover, $color-boton-active);
+  
+}
+.boton-secundario{
+  @include boton($color-boton-secundario, $color-boton-secundario-borde, $color-boton-secundario-hover, $color-boton-secundario-active);
+  
+}
