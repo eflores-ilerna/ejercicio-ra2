@@ -2,4 +2,4 @@ Reparto del trabajo:
 
 Antonio Jesus Cejudo:
 
-Enrique Flores: 
+Enrique Flores: Cabecera de la página y navegación
