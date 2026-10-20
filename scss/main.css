@@ -5,7 +5,7 @@
   padding: 10px;
   margin: 10px;
   color: #000000;
-  background-color: #be2b2b;
+  background-color: #6e6e6e;
 }
 
 .imagen {
@@ -14,4 +14,28 @@
   border-radius: 0px;
 }
 
-/*# sourceMappingURL=main.css.map */
+.header {
+  display: flex;
+  justify-content: space-between;
+  background-color: #303070;
+  height: 4rem;
+  margin: -8px;
+  border-radius: 0 0 8px 8px;
+}
+.header__logo {
+  height: 4rem;
+  border-radius: 16px;
+}
+.header__nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 75%;
+}
+.header__nav__link {
+  color: rgb(214.5, 143, 0);
+}
+.header__title {
+  font-family: "Courier New", Courier, monospace;
+  color: #F0A000;
+}/*# sourceMappingURL=main.css.map */

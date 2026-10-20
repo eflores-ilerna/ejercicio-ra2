@@ -1,4 +1,4 @@
-@use '../abstract/variables';
+@use '../abstract/variables' as *;
 
 
 .tarjeta{
@@ -8,7 +8,7 @@
     padding: 10px;
     margin: 10px;
     color: #000000;
-    background-color: #cc6969;
+    background-color: $color-fondo-tarjeta;
 }
 .imagen{
     width: 100%;
