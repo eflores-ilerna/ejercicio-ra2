@@ -3,3 +3,5 @@ img/pruebas
 
 scss/main.css
 scss/main.css.map
+scss/components/*.css
+scss/components/*.css.map

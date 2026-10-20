@@ -5,7 +5,7 @@
   padding: 10px;
   margin: 10px;
   color: #000000;
-  background-color: #be2b2b;
+  background-color: #6e6e6e;
 }
 
 .imagen {
@@ -14,4 +14,77 @@
   border-radius: 0px;
 }
 
-/*# sourceMappingURL=main.css.map */
+.contenedor {
+  display: flex;
+  justify-content: center;
+  align-items: auto;
+  gap: 15px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  background-color: #303070;
+  height: 4rem;
+  margin: -8px;
+  border-radius: 0 0 8px 8px;
+}
+.header__logo {
+  height: 4rem;
+  border-radius: 16px;
+}
+.header__nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 75%;
+}
+.header__nav__link {
+  color: rgb(214.5, 143, 0);
+}
+.header__title {
+  font-family: "Courier New", Courier, monospace;
+  color: #F0A000;
+}
+
+.boton-primario {
+  background-color: #d13b00;
+  color: #fdfdfd;
+  border: 2px solid #720000;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 15%;
+}
+.boton-primario:hover {
+  background-color: #e70505;
+}
+.boton-primario:active {
+  background-color: #720000;
+  transform: translateY(4px);
+}
+
+.boton-secundario {
+  background-color: #727272;
+  color: #fdfdfd;
+  border: 2px solid #555657;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 15%;
+}
+.boton-secundario:hover {
+  background-color: #aeb1b4;
+}
+.boton-secundario:active {
+  background-color: #555657;
+  transform: translateY(4px);
+}/*# sourceMappingURL=main.css.map */
