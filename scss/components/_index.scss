@@ -1,0 +1,36 @@
+@use '../abstract/variables' as *;
+
+.indexmain{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    &__element{
+        &__left{
+            width: 50%;
+            display:flex;
+            flex-direction: row;
+            text-align: left;
+            align-items: center;
+            justify-content: space-around;
+            border-bottom: solid 2px $color-fondo-tarjeta;
+            border-radius: 2*$border-radius;
+            
+        }
+
+        &__right{
+            width:50%;
+            align-items: center;
+            display:flex;
+            flex-direction: row;
+            text-align: right;
+            justify-content: space-around;
+            border-bottom: solid 2px $color-fondo-tarjeta;
+            border-radius: 2*$border-radius;
+        }
+    }
+}
+
+.separador{
+    height: 5*$espaciado-base;
+}
