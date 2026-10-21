@@ -1,20 +1,7 @@
 Reparto del trabajo:
 
-Antonio Jesus Cejudo:
+Antonio Jesus Cejudo: Tarjetas de producto, botones
 
 Enrique Flores: Cabecera de la página y navegación, pie de página
 
-
-Variables:
-color:
--de fondo 
--de cuadrado 
--de botones
--etc
-
-Tamaño:
--de cuadrado
--de botones
--tarjetas de presentacion
--imagenes de presentacion
--
+Ambos: variables
