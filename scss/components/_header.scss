@@ -1,22 +1,45 @@
 @use '../abstract/variables' as *;
+@use '../abstract/mixins' as *;
 @use 'sass:color';
 
 .header{
     display:flex;
-    justify-content: space-between;
+
+    
     background-color: $color-fondo-cabecera;
-    height: $espaciado-base * 4;
     margin: -8px;
     border-radius: 0 0 $border-radius $border-radius;
+    
+    @include responsive(desktop){
+         height: $espaciado-base * 4;
+         justify-content: space-between;
+    }
+
+    @include responsive(mobile){
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+        
+
+
     &__logo{
         height: $espaciado-base*4;
+        width: $espaciado-base*4;
         border-radius:$border-radius * 2;
+        
     }
     &__nav{
         display: flex;
         align-items: center;
         justify-content: space-evenly;
         width: 75%;
+        
+
+        @include responsive(headergap){
+            justify-content: space-between;
+            width: 50%;
+        }
         
         &__link{
             color: color.adjust($color_secundario, $lightness: -5%);
