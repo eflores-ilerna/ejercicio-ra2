@@ -1,0 +1,30 @@
+@use '../abstract/variables' as *;
+
+.contactomain{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    text-align: center;
+
+    &__contenedor{
+        background-color: $color-fondo-tarjeta;
+        border-radius: 3*$border-radius;
+        padding: 0px 30px 10px 30px;
+    }
+
+    &__titulo{
+        font-size: $espaciado-gd;
+        color: $color-secundario;
+        font-family: $tipografia-titulo;
+    }
+
+    &__texto{
+        color: white;
+    }
+}
