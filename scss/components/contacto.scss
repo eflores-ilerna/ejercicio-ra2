@@ -1,4 +1,4 @@
-@use '../abstract/variables';
+@use '../abstract/variables' as *;
 
 .contactomain{
     display: flex;
@@ -10,4 +10,19 @@
     bottom: 0;
     left: 0;
     right: 0;
+
+    &__contenedor{
+        background-color: $color-fondo-tarjeta;
+        border-radius: 3*$border-radius;
+        padding: 0px 30px 10px 30px;
+    }
+
+    &__titulo{
+        font-size: $espaciado-gd;
+        color: $color-secundario;
+    }
+
+    &__texto{
+        color: white;
+    }
 }
