@@ -8,7 +8,7 @@ Reparto del trabajo:
 
 Antonio Jesus Cejudo: Tarjetas de producto, botones
 
-Enrique Flores: Cabecera de la página y navegación, pie de página
+Enrique Flores: Cabecera de la página y navegación, pie de página. Responsive para el header
 
 Ambos: variables
 
