@@ -10,6 +10,7 @@
     bottom: 0;
     left: 0;
     right: 0;
+    text-align: center;
 
     &__contenedor{
         background-color: $color-fondo-tarjeta;
@@ -20,6 +21,7 @@
     &__titulo{
         font-size: $espaciado-gd;
         color: $color-secundario;
+        font-family: $tipografia-titulo;
     }
 
     &__texto{
