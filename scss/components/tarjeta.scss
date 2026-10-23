@@ -20,7 +20,7 @@
 .contenedor{
     display: flex;
     justify-content: center;
-    align-items: auto;
+    align-items: center;
     gap: 15px;
-    
+    flex-direction: row;
 }

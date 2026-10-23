@@ -4,7 +4,7 @@
     background-color: $bg_color;
     color: #fdfdfd;
     border: 2px solid $bd_color;
-    padding: 10px 20px;
+    padding: 10px 10px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
@@ -19,6 +19,7 @@
   background-color: $active_color;
       transform: translateY(4px);
     }
+    
 }
 
 .boton-primario{
