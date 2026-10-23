@@ -1,13 +1,19 @@
 @use '../abstract/variables' as *;
 
+body{
+    height: 100%;
+}
+
+
 .contactomain{
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    height: 100%;
+   
     position: absolute;
-    bottom: 0;
+    top:10*$espaciado-base;
+    bottom: 10*$espaciado-base;
     left: 0;
     right: 0;
     text-align: center;
